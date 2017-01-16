@@ -1,0 +1,22 @@
+<div class="footer">
+    <div class="link">
+        <div class="main">
+            <span><i>LINK·</i>友情链接</span>
+            <volist name="link" id="vo" offset="0" length="5">
+                <a href="{$vo.www}" target="_blank" rel="nofollow">{$vo.title}</a>
+            </volist>
+        </div>
+    </div>
+    <div class="ff">
+        版权所有：　{$config['web_name']} 　联系人：{$config['linkman']} 　电话：{$config['tel']}　　手机：{$config['mobile']}　E-mail：<a href="mailto:{$config['email']}">{$config['email']}</a>　<br/>
+        地址：{$config['address']}　<br/>
+
+        　网址：<a href="{$config['web_url']}">{$config['web_url']}</a>　网页设计：激石信息技术<a href="__APP__/admin" target="_blank">[后台登陆]</a>
+        </a><a href="__ROOT__/Sitemap">　网站地图</a><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261148743'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1261148743%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+    </div>
+</div>
+
+
+
+<include file="Public:f_lode"/>
+{$liuliangbao}
